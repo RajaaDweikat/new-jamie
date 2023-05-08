@@ -1,0 +1,344 @@
+
+/* start home page*/
+@media screen and (max-width:575px) {
+    nav {
+        width: 100%;
+        background-color: #333 !important;
+   
+    }
+    
+
+    .container {
+        width: 90% !important;
+    
+    }
+    
+    nav .navbar-brand {
+
+        display: none;
+    }
+
+    nav .navbar-brand2 img {
+        visibility: visible;
+        margin-right: 20px;
+
+    }
+
+    .navbar-toggler-icon {
+        background-color: #fff;
+        color: #141414;
+        cursor: pointer;
+        font-size: 13px;
+        height: 40px;
+        line-height: 40px;
+        position: absolute;
+        right:40px !important;
+        text-align: center;
+        top: 50%;
+        width: 40px;
+        margin-top: -20px;
+    }
+     .height.vh-100 {
+        height: 87vh !important;
+    }
+
+    .container .header-items {
+        width: 90%;
+    }
+
+    .header-items .img1 {
+        margin: 0 17px 3px;
+    }
+
+    .header-items h3 {
+        font-size: 25px;
+        margin-top: 5px;
+    }
+
+    header .header-items span {
+        font-size: 18px !important;
+        width: 378px !important;
+
+    }
+    
+
+    h2 {
+        font-size: 35px !important;
+    }
+    .about .sec-title .sec-title-inner::before {
+        margin-left: -16% !important;
+        
+    }
+    .services .sec-title .sec-title-inner::before {
+        margin-left: 7px !important;
+    }
+
+    .services-content .serTitle {
+        width: 100%;
+        margin-left: 0 !important;
+    }
+
+    .services-content .serTitle p {
+        font-size: 22px;
+        line-height: 33px;
+    }
+    .svg-container {
+        width: 121px !important;
+    }
+    .support .sec-title .sec-title-inner::before {
+     margin-left: -16% !important;
+       
+    }
+    .sec-title .sec-title-inner::before {
+        margin-left: -6px !important;
+     
+    }
+
+    .sec-title p {
+        max-width: 100% !important;
+    }
+    .support-items .custome-btn {
+        margin-left: 20% !important;
+    }
+
+    .news-items form {
+        width: 87% !important;
+    }
+
+    .news-items form button {
+        position: static !important;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    footer .end-bar .scl {
+        margin-left: 0% !important;
+    }
+
+    .testi-items .testi-info{
+    
+        width: 100%;
+    }
+   .testi-items .testi-img::after{
+    left: 89px !important;
+    
+    
+   }
+   
+
+}
+@media screen and (min-width:576px) and (max-width:991px){
+    .container {
+        width: 100%;
+    
+    }
+    nav .navbar-brand {
+
+        display: none;
+    }
+    
+
+    nav .navbar-brand2 img {
+        visibility: visible;
+        margin-right: 20px;
+
+    }
+
+    .navbar-toggler-icon {
+        background-color: #fff;
+        color: #141414;
+        cursor: pointer;
+        font-size: 13px;
+        height: 40px;
+        line-height: 40px;
+        position: absolute;
+        right: 40px !important;
+        text-align: center;
+        top: 50%;
+        width: 40px;
+        margin-top: -20px;
+    }
+    .height.vh-100 {
+        height: 92vh !important;
+    }
+    .svg-container {
+        width: 121px !important;
+     
+    }
+
+    .container .header-items {
+        width: 80%;
+    }
+    .header-items .img1 , .header-items .img2, .header-items h3,header .header-items span  {
+       margin-bottom: 20px;
+    }
+
+    .header-items .custome-btn{
+        margin-top: 20px;
+    }
+    .support-items .custome-btn {
+        margin-left: 47% !important;
+    
+    }
+    .testi-items .testi-img::after{
+      
+        left: 273px !important;
+        
+        
+       }
+       footer .end-bar .scl{
+        margin-left: 35% !important;
+       }
+    
+}
+@media screen and (min-width:992px){
+    .testi-items .testi-img::after {
+        left: 505px !important;}
+}
+/* end home page*/
+/* start blog page*/
+@media screen and (max-width:575px){
+    
+    .container {
+        width: 90% !important;
+    
+    }
+    nav {
+        width: 100%;
+        position: relative;
+        z-index: 999;
+        background-color: #333 !important;
+        
+    }
+
+    .container {
+        width: 83%;
+    
+    }
+    
+    nav .navbar-brand {
+
+        display: none;
+    }
+
+    nav .navbar-brand2 img {
+        visibility: visible;
+        margin-right: 20px;
+
+    }
+
+    .navbar-toggler-icon {
+        background-color: #fff;
+        color: #141414;
+        cursor: pointer;
+        font-size: 13px;
+        height: 40px;
+        line-height: 40px;
+        position: absolute;
+        right: 40px !important;
+        text-align: center;
+        top: 50%;
+        width: 40px;
+        margin-top: -20px;
+    }
+    .vh-100 {
+        height: 61vh !important;
+    }
+    .container .header-items {
+        width: 80%;
+    }
+    header .header-items h1 img {
+        width: 100%;
+    }
+    .list1{
+        margin-left: -36px !important;
+    }
+    .blog-list li {
+        display: block !important;
+    }
+    .d-flex {
+        display: flex!important;
+        flex-direction: column;
+    }
+    .comment-form{
+        width: 85%;
+        margin-left: 23px;
+        margin-bottom: 45px;
+    }
+     .rec-box.d-flex{
+        display: flex!important;
+        flex-direction: row !important; 
+     }
+     footer .end-bar{
+        width: 100% !important;
+     } 
+     footer .end-bar p{
+        margin-left: -17px !important;
+     }
+     footer .end-bar .scl {
+        margin-left: 15% !important;
+    }
+    
+
+}
+@media screen and (min-width:576px) and (max-width:991px){
+    .container{
+        width: 90%;
+    }
+    .list1{
+        margin-left: 16% !important;
+    }
+    .vh-100{
+        height: 45vh!important;
+    }
+    .overlay{
+        height: 45vh!important;
+    }
+    .blog-header {
+        height: 45vh!important;
+    } 
+    }
+
+    .comment-form{
+        width: 85%;
+        margin-left: 23px;
+        margin-bottom: 45px;
+    }
+    .comment-form form button {
+        margin-bottom: 40px;
+    }
+    footer .end-bar .scl {
+        margin-left: 24% !important;
+    }
+
+
+
+/* end blog page*/
+/* start contact page*/
+@media screen and (max-width:575px){
+    .container {
+        width: 80% !important;
+    
+    }
+    
+    .list1 {
+        margin-left: -7px !important;
+    }
+    .sec-title .sec-title-inner::before {
+        left: 24% !important;
+    }
+
+
+}
+@media screen and (min-width:576px) and (max-width:991px){
+   
+    .contact-header {
+        height: 46vh !important;
+}
+.overlay{
+    height: 46vh !important;
+}
+
+}
+/* end contact page*/
+
